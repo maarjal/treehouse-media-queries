@@ -87,12 +87,29 @@ nav a:hover {
   padding: 20px 0;
 }
 
+.th {
+  max-width: 100%;
+}
 
+.th2 {
+  max-width: 100%;
+  vertical-align: middle;
+}
 /*************************
 Media Queries
 *************************/
 
 @media screen and (min-width: 480px) {
+  .th {
+    margin: 0 0 2em 1em;
+    width: 50%;
+    float: right;
+    max-width: 600px;
+  }
+
+  .th2 {
+    width: 70%;
+  }
 
   nav a {
     float: left;
